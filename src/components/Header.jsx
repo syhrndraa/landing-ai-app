@@ -33,10 +33,7 @@ const Header = () => {
     ${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"}`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-5">
-        <a
-          href="#hero"
-          className="block w-[12rem] flex gap-x-4 items-center xl:mr-8"
-        >
+        <a href="#hero" className="w-[12rem] flex gap-x-4 items-center xl:mr-8">
           <img src={fourty4} width={40} height={40} alt="Fourty-4" />
           <h3 className="font-bold uppercase text-lg">Fourty-4</h3>
         </a>
