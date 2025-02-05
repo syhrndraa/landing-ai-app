@@ -1,4 +1,4 @@
-import { check, fourty4 } from "../assets";
+import { check, fourty4Symbol } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
@@ -36,7 +36,12 @@ const Collaboration = () => {
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center aspect-square bg-n-8 rounded-full">
-                  <img src={fourty4} alt="fourty4" width={48} height={48} />
+                  <img
+                    src={fourty4Symbol}
+                    alt="fourty4"
+                    width={48}
+                    height={48}
+                  />
                 </div>
               </div>
             </div>
