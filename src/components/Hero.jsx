@@ -26,7 +26,7 @@ const Hero = () => {
             <br />
             of AI Chatting with&nbsp;
             <span className="relative inline-block">
-              Fourty-4
+              Forty-4
               <img
                 src={curve}
                 alt="Curve"
@@ -37,8 +37,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Fourty-4. Upgrade your productivity
-            with Fourty-4, the open AI chat app.
+            Unleash the power of AI within Forty-4. Upgrade your productivity
+            with Forty-4, the open AI chat app.
           </p>
           <Button href="#pricing" white>
             Get Started

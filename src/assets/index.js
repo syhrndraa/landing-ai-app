@@ -1,8 +1,8 @@
 import brainwave from "./brainwave.svg";
-import fourty4 from "./fourty-4.svg";
+import forty4 from "./forty-4.svg";
 import check from "./check.svg";
-import fourty4Symbol from "./fourty-4-symbol.svg";
-import fourty4WhiteSymbol from "./fourty4-symbol-white.svg";
+import forty4Symbol from "./forty-4-symbol.svg";
+import forty4WhiteSymbol from "./forty4-symbol-white.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import smallSphere from "./4-small.png";
@@ -78,12 +78,12 @@ import twitter from "./socials/twitter.svg";
 
 export {
   brainwave,
-  fourty4,
+  forty4,
   check,
   check2,
   loading1,
-  fourty4Symbol,
-  fourty4WhiteSymbol,
+  forty4Symbol,
+  forty4WhiteSymbol,
   play,
   gradient,
   smallSphere,

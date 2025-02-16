@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { useState } from "react";
-import { brainwave, fourty4 } from "../assets";
+import { brainwave, forty4 } from "../assets";
 import { navigation } from "../constants/index";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import Button from "./Button";
@@ -34,8 +34,8 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-5">
         <a href="#hero" className="w-[12rem] flex gap-x-4 items-center xl:mr-8">
-          <img src={fourty4} width={40} height={40} alt="Fourty-4" />
-          <h3 className="font-bold uppercase text-lg">Fourty-4</h3>
+          <img src={forty4} width={40} height={40} alt="Forty-4" />
+          <h3 className="font-bold uppercase text-lg">Forty-4</h3>
         </a>
         <nav
           className={`${

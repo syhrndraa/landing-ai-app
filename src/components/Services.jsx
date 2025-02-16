@@ -1,5 +1,5 @@
 import { service1, service2, service3, check } from "../assets";
-import { fourty4Services, fourty4ServicesIcons } from "../constants";
+import { forty4Services, forty4ServicesIcons } from "../constants";
 import {
   Gradient,
   PhotoChatMessage,
@@ -16,7 +16,7 @@ const Services = () => {
       <div className="container">
         <Heading
           title="Generative AI made for creators."
-          text="Fourty-4 unlocks the potential of AI-powered applications"
+          text="Forty-4 unlocks the potential of AI-powered applications"
         />
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
@@ -32,10 +32,10 @@ const Services = () => {
             <div className="relative z-1 ml-auto max-w-[17rem]">
               <h4 className="h4 mb-4">Smartest AI</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Fourty-4 unlocks the potential of AI-powered applications
+                Forty-4 unlocks the potential of AI-powered applications
               </p>
               <ul className="body-2">
-                {fourty4Services.map((item, index) => (
+                {forty4Services.map((item, index) => (
                   <li
                     key={index}
                     className="flex gap-x-4 items-start py-4 border-t border-n-6"
@@ -77,7 +77,7 @@ const Services = () => {
                   generation engine. What will you create?
                 </p>
                 <ul className="flex items-center justify-between">
-                  {fourty4ServicesIcons.map((item, index) => (
+                  {forty4ServicesIcons.map((item, index) => (
                     <li
                       key={index}
                       className={`flex items-center justify-center rounded-2xl ${
